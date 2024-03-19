@@ -1,7 +1,6 @@
 
 import javax.swing.JOptionPane;
 
-
 public class Auto {
          private String color;
          private boolean chocado;
@@ -78,7 +77,7 @@ public class Auto {
         
         public void moverIzquierda(){
             if(!chocado && posY > 0){
-                posY = posY - 1;
+                posX = posX - 1;
                 System.out.println("POS X: " + posX);
                 
             }else{

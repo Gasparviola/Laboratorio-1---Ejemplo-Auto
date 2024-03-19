@@ -4,9 +4,10 @@ public class Pared {
     private int posX;//entre 0 y 85
     private int posY;//entre 0 y 17
 
-    public Pared(int posX, int posY) {
+    public Pared() {
         posX=(int)(Math.random()*80);
         posY=(int)(Math.random()*17);
+        System.out.println("Posicion de la pared: " +"X: " + posX + " Y: " + posY);
     }
 
     public int getPosX() {
